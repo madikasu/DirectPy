@@ -30,7 +30,7 @@ class DIRECTV:
         self.base_url = 'http://%s:%s' % (ip,port)
 
         self.get_standby()
-        if self.standby == false:
+        if self.standby == False:
             self.get_tuned()
 
     @staticmethod
